@@ -1,12 +1,11 @@
-import { Logo } from "../styles/main.styles";
-
+import TopHeader from "../components/header";
 
 const Main = () => {
- return(
+  return (
     <>
-    <Logo>리액트샵</Logo>
+      <TopHeader></TopHeader>;
     </>
- )
+  );
 };
 
 export default Main;
